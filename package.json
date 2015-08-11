@@ -1,6 +1,6 @@
 {
   "name": "ch-q-all-settled",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extension of Q#allSettled into AngularJS $q",
   "main": "src/index.js",
   "scripts": {
