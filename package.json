@@ -1,0 +1,19 @@
+{
+  "name": "ch-q-all-settled",
+  "version": "0.0.1",
+  "description": "Extension of Q#allSettled into AngularJS $q",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronicled/ch-q-all-settled.git"
+  },
+  "author": "Chronicled",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chronicled/ch-q-all-settled/issues"
+  },
+  "homepage": "https://github.com/chronicled/ch-q-all-settled#readme"
+}
