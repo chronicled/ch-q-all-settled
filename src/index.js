@@ -15,10 +15,16 @@ angular.module('chQAllSettled', []).config(function($provide) {
     };
 
     $q.isFulfilled = function(promises) {
-      return promises.reduce(function(agg, c) {
-        return c.state === fulfilled ? agg.concat([c.value]) : agg;
-      }, []);
+      return promises.filter(isFulfilled).map(promiseValue);
     };
+
+    function isFulfilled(promise) {
+      return promise.state === fulfilled;
+    }
+
+    function promiseValue(promise) {
+      return promise.value;
+    }
 
     return $q;
   });
